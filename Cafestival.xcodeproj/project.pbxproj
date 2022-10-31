@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33EA6A122910656300A863D6 /* CafestivalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33EA6A112910656300A863D6 /* CafestivalApp.swift */; };
+		33EA6A142910656300A863D6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33EA6A132910656300A863D6 /* ContentView.swift */; };
+		33EA6A162910656600A863D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33EA6A152910656600A863D6 /* Assets.xcassets */; };
+		33EA6A192910656600A863D6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33EA6A182910656600A863D6 /* Preview Assets.xcassets */; };
+		33EA6A1B2910656600A863D6 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33EA6A1A2910656600A863D6 /* Persistence.swift */; };
+		33EA6A1E2910656600A863D6 /* Cafestival.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 33EA6A1C2910656600A863D6 /* Cafestival.xcdatamodeld */; };
+		33EA6A282910656600A863D6 /* CafestivalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33EA6A272910656600A863D6 /* CafestivalTests.swift */; };
+		33EA6A322910656600A863D6 /* CafestivalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33EA6A312910656600A863D6 /* CafestivalUITests.swift */; };
+		33EA6A342910656600A863D6 /* CafestivalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33EA6A332910656600A863D6 /* CafestivalUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33EA6A242910656600A863D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33EA6A062910656300A863D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33EA6A0D2910656300A863D6;
+			remoteInfo = Cafestival;
+		};
+		33EA6A2E2910656600A863D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33EA6A062910656300A863D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33EA6A0D2910656300A863D6;
+			remoteInfo = Cafestival;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		33EA6A0E2910656300A863D6 /* Cafestival.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cafestival.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33EA6A112910656300A863D6 /* CafestivalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafestivalApp.swift; sourceTree = "<group>"; };
+		33EA6A132910656300A863D6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		33EA6A152910656600A863D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33EA6A182910656600A863D6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		33EA6A1A2910656600A863D6 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		33EA6A1D2910656600A863D6 /* Cafestival.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Cafestival.xcdatamodel; sourceTree = "<group>"; };
+		33EA6A232910656600A863D6 /* CafestivalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CafestivalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33EA6A272910656600A863D6 /* CafestivalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafestivalTests.swift; sourceTree = "<group>"; };
+		33EA6A2D2910656600A863D6 /* CafestivalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CafestivalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33EA6A312910656600A863D6 /* CafestivalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafestivalUITests.swift; sourceTree = "<group>"; };
+		33EA6A332910656600A863D6 /* CafestivalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafestivalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33EA6A0B2910656300A863D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33EA6A202910656600A863D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33EA6A2A2910656600A863D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33EA6A052910656300A863D6 = {
+			isa = PBXGroup;
+			children = (
+				33EA6A102910656300A863D6 /* Cafestival */,
+				33EA6A262910656600A863D6 /* CafestivalTests */,
+				33EA6A302910656600A863D6 /* CafestivalUITests */,
+				33EA6A0F2910656300A863D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33EA6A0F2910656300A863D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33EA6A0E2910656300A863D6 /* Cafestival.app */,
+				33EA6A232910656600A863D6 /* CafestivalTests.xctest */,
+				33EA6A2D2910656600A863D6 /* CafestivalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33EA6A102910656300A863D6 /* Cafestival */ = {
+			isa = PBXGroup;
+			children = (
+				33EA6A112910656300A863D6 /* CafestivalApp.swift */,
+				33EA6A132910656300A863D6 /* ContentView.swift */,
+				33EA6A152910656600A863D6 /* Assets.xcassets */,
+				33EA6A1A2910656600A863D6 /* Persistence.swift */,
+				33EA6A1C2910656600A863D6 /* Cafestival.xcdatamodeld */,
+				33EA6A172910656600A863D6 /* Preview Content */,
+			);
+			path = Cafestival;
+			sourceTree = "<group>";
+		};
+		33EA6A172910656600A863D6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				33EA6A182910656600A863D6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		33EA6A262910656600A863D6 /* CafestivalTests */ = {
+			isa = PBXGroup;
+			children = (
+				33EA6A272910656600A863D6 /* CafestivalTests.swift */,
+			);
+			path = CafestivalTests;
+			sourceTree = "<group>";
+		};
+		33EA6A302910656600A863D6 /* CafestivalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				33EA6A312910656600A863D6 /* CafestivalUITests.swift */,
+				33EA6A332910656600A863D6 /* CafestivalUITestsLaunchTests.swift */,
+			);
+			path = CafestivalUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33EA6A0D2910656300A863D6 /* Cafestival */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33EA6A372910656600A863D6 /* Build configuration list for PBXNativeTarget "Cafestival" */;
+			buildPhases = (
+				33EA6A0A2910656300A863D6 /* Sources */,
+				33EA6A0B2910656300A863D6 /* Frameworks */,
+				33EA6A0C2910656300A863D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cafestival;
+			productName = Cafestival;
+			productReference = 33EA6A0E2910656300A863D6 /* Cafestival.app */;
+			productType = "com.apple.product-type.application";
+		};
+		33EA6A222910656600A863D6 /* CafestivalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33EA6A3A2910656600A863D6 /* Build configuration list for PBXNativeTarget "CafestivalTests" */;
+			buildPhases = (
+				33EA6A1F2910656600A863D6 /* Sources */,
+				33EA6A202910656600A863D6 /* Frameworks */,
+				33EA6A212910656600A863D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33EA6A252910656600A863D6 /* PBXTargetDependency */,
+			);
+			name = CafestivalTests;
+			productName = CafestivalTests;
+			productReference = 33EA6A232910656600A863D6 /* CafestivalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		33EA6A2C2910656600A863D6 /* CafestivalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33EA6A3D2910656600A863D6 /* Build configuration list for PBXNativeTarget "CafestivalUITests" */;
+			buildPhases = (
+				33EA6A292910656600A863D6 /* Sources */,
+				33EA6A2A2910656600A863D6 /* Frameworks */,
+				33EA6A2B2910656600A863D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33EA6A2F2910656600A863D6 /* PBXTargetDependency */,
+			);
+			name = CafestivalUITests;
+			productName = CafestivalUITests;
+			productReference = 33EA6A2D2910656600A863D6 /* CafestivalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33EA6A062910656300A863D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					33EA6A0D2910656300A863D6 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					33EA6A222910656600A863D6 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 33EA6A0D2910656300A863D6;
+					};
+					33EA6A2C2910656600A863D6 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 33EA6A0D2910656300A863D6;
+					};
+				};
+			};
+			buildConfigurationList = 33EA6A092910656300A863D6 /* Build configuration list for PBXProject "Cafestival" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33EA6A052910656300A863D6;
+			productRefGroup = 33EA6A0F2910656300A863D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33EA6A0D2910656300A863D6 /* Cafestival */,
+				33EA6A222910656600A863D6 /* CafestivalTests */,
+				33EA6A2C2910656600A863D6 /* CafestivalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33EA6A0C2910656300A863D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33EA6A192910656600A863D6 /* Preview Assets.xcassets in Resources */,
+				33EA6A162910656600A863D6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33EA6A212910656600A863D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33EA6A2B2910656600A863D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33EA6A0A2910656300A863D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33EA6A1B2910656600A863D6 /* Persistence.swift in Sources */,
+				33EA6A1E2910656600A863D6 /* Cafestival.xcdatamodeld in Sources */,
+				33EA6A142910656300A863D6 /* ContentView.swift in Sources */,
+				33EA6A122910656300A863D6 /* CafestivalApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33EA6A1F2910656600A863D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33EA6A282910656600A863D6 /* CafestivalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33EA6A292910656600A863D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33EA6A342910656600A863D6 /* CafestivalUITestsLaunchTests.swift in Sources */,
+				33EA6A322910656600A863D6 /* CafestivalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33EA6A252910656600A863D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33EA6A0D2910656300A863D6 /* Cafestival */;
+			targetProxy = 33EA6A242910656600A863D6 /* PBXContainerItemProxy */;
+		};
+		33EA6A2F2910656600A863D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33EA6A0D2910656300A863D6 /* Cafestival */;
+			targetProxy = 33EA6A2E2910656600A863D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		33EA6A352910656600A863D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		33EA6A362910656600A863D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33EA6A382910656600A863D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cafestival/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.skyffee.Cafestival;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		33EA6A392910656600A863D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cafestival/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.skyffee.Cafestival;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		33EA6A3B2910656600A863D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.skyffee.CafestivalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cafestival.app/Cafestival";
+			};
+			name = Debug;
+		};
+		33EA6A3C2910656600A863D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.skyffee.CafestivalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cafestival.app/Cafestival";
+			};
+			name = Release;
+		};
+		33EA6A3E2910656600A863D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.skyffee.CafestivalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cafestival;
+			};
+			name = Debug;
+		};
+		33EA6A3F2910656600A863D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.skyffee.CafestivalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cafestival;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33EA6A092910656300A863D6 /* Build configuration list for PBXProject "Cafestival" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33EA6A352910656600A863D6 /* Debug */,
+				33EA6A362910656600A863D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33EA6A372910656600A863D6 /* Build configuration list for PBXNativeTarget "Cafestival" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33EA6A382910656600A863D6 /* Debug */,
+				33EA6A392910656600A863D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33EA6A3A2910656600A863D6 /* Build configuration list for PBXNativeTarget "CafestivalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33EA6A3B2910656600A863D6 /* Debug */,
+				33EA6A3C2910656600A863D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33EA6A3D2910656600A863D6 /* Build configuration list for PBXNativeTarget "CafestivalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33EA6A3E2910656600A863D6 /* Debug */,
+				33EA6A3F2910656600A863D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		33EA6A1C2910656600A863D6 /* Cafestival.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				33EA6A1D2910656600A863D6 /* Cafestival.xcdatamodel */,
+			);
+			currentVersion = 33EA6A1D2910656600A863D6 /* Cafestival.xcdatamodel */;
+			path = Cafestival.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 33EA6A062910656300A863D6 /* Project object */;
+}
